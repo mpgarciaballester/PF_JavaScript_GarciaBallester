@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    margin: 16px 104px;
+    background-color: #F2ECDF;
+}
+
+h1, h2, h3, li {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 32px;
+    color: #B59D6E;
+}
+h1 {text-transform: uppercase;}
+
+h2 {font-size: 40px;}
+
+h3 {font-size: 32px; color: #508091;}
+
+p {font-size: 24px;}
+
+button, input[type=submit] {
+    font-size: 20px;
+    color: #F2ECDF;
+    background-color: #508091;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type=submit] {
+    width: 25%;
+}
+
+input[type=text] {
+    background-color: #FFFCF5;
+    border: 1px solid #B59D6E;
+    border-radius: 3px;
+}
+
+input[type=checkbox] {
+    height:20px;
+    width:20px;
+    background-color: #FFFCF5;
+}
+
+label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.banner {
+    height: 400px;
+    background-image: url(../images/cosmere.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.botonesS {
+    display: flex;
+    justify-content: space-between;
+}
+
+#crear {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#sistemaCreado {display: inline;}
+
+.botonC {margin-right: 20px;}
+
+#libros {display: block;}
+
+#toast {text-align: center;}
+
+footer, #crearSistema, #leidos {
+    border-top: 2px solid #B59D6E;
+}
+
+footer {
+    height: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+}
